@@ -1,0 +1,277 @@
+<!--pages/test/index.wxml-->
+<view class="head">
+  <view class='swiper'>
+    <swiper indicator-dots="{{indicatorDots}}" vertical="{{vertical}}" autoplay="{{autoplay}}" duration="{{duration}}" interval='{{interval}}' indicator-active-color="#007aff" bindchange="bindchange" circular="{{circular}}" style="height:360rpx;">
+      <block wx:for='{{imgUrls}}' wx:key="{{index}}">
+        <swiper-item>
+          <image src="{{item}}" data-id='{{index}}' class="slide-image" mode="widthFix" bindload="imageLoad" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</view>
+<view class="container">
+  <view class="index-title">
+    <text class="index-title-left">精选案例</text>
+    <text class="index-title-right">更多></text>
+  </view>
+  <view class="index-content">
+    <view class="index_icon">
+      <mp-row>
+        <mp-col span="{{6}}">
+          <view>
+            <view class="col">
+              <view class="page_icon">
+                <image src="https://i.52112.com/icon/jpg/256/20200928/93489/3806792.jpg"></image>
+              </view>
+              <text class="page_icon_text">造价询价</text>
+            </view>
+          </view>
+        </mp-col>
+        <mp-col span="{{6}}">
+          <view>
+            <view class="col">
+              <view class="page_icon">
+                <image src="https://i.52112.com/icon/jpg/256/20200928/93489/3806792.jpg"></image>
+              </view>
+              <text class="page_icon_text">造价询价</text>
+            </view>
+          </view>
+        </mp-col>
+        <mp-col span="{{6}}">
+          <view>
+            <view class="col">
+              <view class="page_icon">
+                <image src="https://i.52112.com/icon/jpg/256/20200928/93489/3806792.jpg"></image>
+              </view>
+              <text class="page_icon_text">造价询价</text>
+            </view>
+          </view>
+        </mp-col>
+        <mp-col span="{{6}}">
+          <view>
+            <view class="col">
+              <view class="page_icon">
+                <image src="https://i.52112.com/icon/jpg/256/20200928/93489/3806792.jpg"></image>
+              </view>
+              <text class="page_icon_text">造价询价</text>
+            </view>
+          </view>
+        </mp-col>
+      </mp-row>
+    </view>
+    <view class="index_company">
+      <view style="width:100%;">
+        <view class="index_company_logo">
+          <image src="https://i.52112.com/icon/jpg/256/20200928/93489/3806792.jpg"></image>
+        </view>
+        <view class="index_company_info">
+          <view>
+            <text class="name">意境花仙子</text>
+            <view class="weiguan">
+              <text>围观:<text>9999</text></text>
+            </view>
+          </view>
+          <text class="address">四川省成都市环球中心</text>
+          <text class="address">快速导航</text>
+          <text class="address">拨打电话</text>
+        </view>
+      </view>
+      <view>
+      </view>
+    </view>
+  </view>
+
+  <view class="index-title">
+    <text class="index-title-left">团队风采</text>
+    <text class="index-title-right">更多></text>
+  </view>
+  <view style="width:100%;">
+    <view class="team_info">
+      <mp-row>
+        <mp-col span="{{8}}">
+          <view>
+            <view class="col">
+              <view class="team_view">
+                <image src="https://src.mcool.com/data/attachment/forum/202008/19/224153vpp6k0vxuivrkmpm.jpg-cover">
+                </image>
+              </view>
+              <text class="team_view_text">造价询价</text>
+            </view>
+          </view>
+        </mp-col>
+        <mp-col span="{{8}}">
+          <view>
+            <view class="col">
+              <view class="team_view">
+                <image src="https://src.mcool.com/data/attachment/forum/202008/19/224153vpp6k0vxuivrkmpm.jpg-cover">
+                </image>
+              </view>
+              <text class="team_view_text">造价询价</text>
+            </view>
+          </view>
+        </mp-col>
+        <mp-col span="{{8}}">
+          <view>
+            <view class="col">
+              <view class="team_view">
+                <image src="https://src.mcool.com/data/attachment/forum/202008/19/224153vpp6k0vxuivrkmpm.jpg-cover">
+                </image>
+              </view>
+              <text class="team_view_text">造价询价</text>
+            </view>
+          </view>
+        </mp-col>
+      </mp-row>
+    </view>
+  </view>
+  <view class="index-title">
+    <text class="index-title-left">促销活动</text>
+    <text class="index-title-right">更多></text>
+  </view>
+  <view class="cuxiao_content">
+    <view class="cuxiao_content_image">
+      <image src="https://img-blog.csdn.net/2018032620571998?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzM3NDc5OTQ2/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70"></image>
+    </view>
+    <view class="cuxiao_content_text">
+      <text class="cuxiao_content_text_txt">1223</text>
+      <text class="cuxiao_content_text_txt">test</text>
+    </view>
+  </view>
+
+  <view class="index-title">
+    <text class="index-title-left">附近楼盘</text>
+    <text class="index-title-right">更多></text>
+  </view>
+  <view class="loupan_content">
+    <view>
+      <view class="cuxiao_content_text">
+        <view class="cuxiao_content_text_txt">
+          <text>123</text>
+          <text>456</text>
+        </view>
+        <view class="cuxiao_content_text_txt">
+          <text>789</text>
+        </view>
+      </view>
+    </view>
+    <view>
+      <view class="cuxiao_content_text">
+        <view class="cuxiao_content_text_txt">
+          <text>123</text>
+          <text>456</text>
+        </view>
+        <view class="cuxiao_content_text_txt">
+          <text>789</text>
+        </view>
+      </view>
+    </view>
+    <view>
+      <view class="cuxiao_content_text">
+        <view class="cuxiao_content_text_txt">
+          <text>123</text>
+          <text>456</text>
+        </view>
+        <view class="cuxiao_content_text_txt">
+          <text>789</text>
+        </view>
+      </view>
+    </view>
+    <view>
+      <view class="cuxiao_content_text">
+        <view class="cuxiao_content_text_txt">
+          <text>123</text>
+          <text>456</text>
+        </view>
+        <view class="cuxiao_content_text_txt">
+          <text>789</text>
+        </view>
+      </view>
+    </view>
+    <view>
+      <view class="cuxiao_content_text">
+        <view class="cuxiao_content_text_txt">
+          <text>123</text>
+          <text>456</text>
+        </view>
+        <view class="cuxiao_content_text_txt">
+          <text>789</text>
+        </view>
+      </view>
+    </view>
+    <view>
+      <view class="cuxiao_content_text">
+        <view class="cuxiao_content_text_txt">
+          <text>123</text>
+          <text>456</text>
+        </view>
+        <view class="cuxiao_content_text_txt">
+          <text>789</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="margin-top:80rpx;">1
+</view>
+<view class="footer">
+  <mp-row>
+    <mp-col span="{{6}}">
+      <view>
+        <view class="col">
+          <view class="footer_icon_head">
+            <view class="footer_icon_image">
+              <image class="footer_icon_image" src="/image/icon/home.svg"></image>
+            </view>
+            <view class="footer_icon_text">
+              <text>首页</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </mp-col>
+    <mp-col span="{{6}}">
+      <view>
+        <view class="col">
+          <view class="footer_icon_head">
+            <view class="footer_icon_image">
+              <image class="footer_icon_image" src="/image/icon/home.svg"></image>
+            </view>
+            <view class="footer_icon_text">
+              <text>工地直播</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </mp-col>
+    <mp-col span="{{6}}">
+      <view>
+        <view class="col">
+          <view class="footer_icon_head">
+            <view class="footer_icon_image">
+              <image class="footer_icon_image" src="/image/icon/home.svg"></image>
+            </view>
+            <view class="footer_icon_text">
+              <text>团队</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </mp-col>
+    <mp-col span="{{6}}">
+      <view>
+        <view class="col">
+          <view class="footer_icon_head">
+            <view class="footer_icon_image">
+              <image src="/image/icon/home.svg" style="width:100%;height:100%"></image>
+            </view>
+            <view class="footer_icon_text">
+              <text>关于我们</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </mp-col>
+  </mp-row>
+</view>

@@ -1,0 +1,173 @@
+/* pages/test/index.wxss */
+
+.swiper image {
+  width: 100%;
+  height: 360rpx;
+}
+
+.swiper-image {
+  height: 360rpx;
+  width: 100%;
+}
+
+.slide-image {
+  height: 360rpx;
+  width: 100%;
+  display: block;
+}
+
+.index-title {
+  width: 100%;
+  background-color: red;
+  position: relative;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+.index-title-left {
+  float: left;
+  position: absolute;
+  left: 20rpx;
+}
+
+.index-title-right {
+  float: right;
+  position: absolute;
+  right: 20rpx;
+}
+
+.index-content {
+  border: none;
+  width: 100%;
+}
+
+.index_icon {
+  text-align: center;
+  margin: 40rpx 0;
+}
+
+.page_icon {
+  background-color: green;
+  width: 100rpx;
+  height: 100rpx;
+  margin: 0 auto;
+  line-height: 100rpx;
+  border-radius: 50%;
+  position: relative;
+}
+
+.page_icon image {
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  left: 25%;
+  position: absolute;
+}
+
+.page_icon_text {
+  font-size: 18rpx;
+}
+
+.index_company {
+  width: 96%;
+  margin: 0 auto;
+  height: 240rpx;
+  background-image: url('https://src.mcool.com/data/attachment/forum/202008/19/224158pk4krxpfphi7pcjc.jpg-cover');
+  position: relative;
+}
+
+
+.index_company_logo {
+  width: 120rpx;
+  height: 120rpx;
+  position: absolute;
+  left: 40rpx;
+  top: 40rpx;
+}
+
+.index_company_logo image {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.index_company_info {
+  position: absolute;
+  top: 45rpx;
+  left: 170rpx;
+  width: calc(100% - 170rpx);
+  font-size: 25rpx;
+}
+
+.index_company_info .name {
+  color: #000;
+}
+
+.index_company_info .weiguan {
+  float: right;
+  margin-right: 20rpx;
+  color: #000;
+}
+
+.index_company_info .address {
+  color: #000;
+}
+
+.team_info {
+  width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.team_view {
+  width: 100%;
+  height: 150rpx;
+  margin: 0 auto;
+  line-height: 150rpx;
+  border-radius: 1%;
+  position: relative;
+}
+
+.team_view image {
+  width: 85%;
+  height: 100%;
+  margin: 10rpx auto;
+}
+
+.team_view_text {
+  font-size: 30rpx;
+}
+
+.cuxiao_content{
+  width:100%;
+  height:300rpx;
+  position: relative;
+}
+.cuxiao_content_image{
+  position: absolute;
+  width: 210rpx;
+  height: 210rpx;
+  top: 15rpx;
+  left: 15rpx;
+  border-color: grey;
+}
+.cuxiao_content_image image{
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.cuxiao_content_text{
+  position: relative;
+  top: 32rpx;
+  left: 235rpx;
+  display: table;
+}
+
+.cuxiao_content_text_txt{
+  display: table-row;
+}
+.loupan_content{
+  width:100%;
+  height:300rpx;
+  position: relative;
+}

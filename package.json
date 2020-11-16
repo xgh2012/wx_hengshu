@@ -1,0 +1,27 @@
+{
+  "name": "hs",
+  "version": "1.0.0",
+  "description": "hs_file",
+  "main": "app.js",
+  "dependencies": {
+    "@miniprogram-component-plus/col": "^1.0.0",
+    "@miniprogram-component-plus/row": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xgh2012/wx_hengshu.git"
+  },
+  "keywords": [
+    "hs_code"
+  ],
+  "author": "xgh2012",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xgh2012/wx_hengshu/issues"
+  },
+  "homepage": "https://github.com/xgh2012/wx_hengshu#readme"
+}
