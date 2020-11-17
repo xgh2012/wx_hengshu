@@ -10,6 +10,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+.index_common{
+  width: 100%;
+  margin-bottom: 15rpx;
+}
 
 .footer {
   position: fixed;
@@ -21,6 +25,7 @@
   text-align: center;
   background-color: wheat;
   border-top: 1rpx solid red;
+  /* display: none; */
 }
 
 .footer_icon_head {
@@ -45,4 +50,13 @@
   margin-right: auto;
   margin-left: auto;
   font-size: 18rpx;
+}
+.footer_clear{
+  position: relative;
+  bottom: 0;
+  height: 80rpx;
+  line-height: 80rpx;
+  min-height: 80rpx;
+  background-color: green;
+  width: 100%;
 }

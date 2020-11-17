@@ -19,7 +19,6 @@
 .index-title {
   width: 100%;
   background-color: red;
-  position: relative;
   height: 80rpx;
   line-height: 80rpx;
 }
@@ -168,6 +167,21 @@
 }
 .loupan_content{
   width:100%;
-  height:300rpx;
-  position: relative;
+}
+
+.loupan_content_text{
+  display: table;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.loupan_content_text_txt{
+  display: table-row;
+}
+.loupan_content_text_txt_right{
+  float: right;
+  color: red;
+}
+.loupan_content_text_txt_grey{
+  color: gray;
 }
